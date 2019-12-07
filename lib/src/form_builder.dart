@@ -45,7 +45,7 @@ class FormBuilderState extends State<FormBuilder> {
   @override
   void initState() {
     _fieldKeys = {};
-    _value = {};
+    _value = initialValue ?? {};
     super.initState();
   }
 
